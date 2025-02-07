@@ -1,0 +1,11 @@
+name: Email Action
+
+on:
+  workflow_dispatch:  # Allows manual triggering
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - name: My Email is rajalakshmi.thiyagarajan@straive.com  # Include your email here
+        run: echo "Hello, world!"
